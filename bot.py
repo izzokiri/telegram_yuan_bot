@@ -7,8 +7,8 @@ from get_yuan_rate import get_yuan_rate
 
 # Загружаем переменные из .env
 load_dotenv()
-TOKEN = os.getenv("BOT_TOKEN")
-CHANNEL_ID = os.getenv("CHANNEL_ID")
+TOKEN = os.getenv("BOT_TOKEN") 
+CHANNEL_ID = os.getenv("CHANNEL_ID")  
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO)
