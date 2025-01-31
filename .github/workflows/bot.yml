@@ -2,7 +2,7 @@ name: Telegram Bot Scheduler
 
 on:
   schedule:
-    - cron: '30 3 * * *'  # Это cron для 6:30 по МСК (03:30 UTC)
+    - cron: '51 3 * * *'  # Это cron для 6:30 по МСК (03:30 UTC)
   workflow_dispatch:  # Позволяет запуск вручную
 
 jobs:
