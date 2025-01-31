@@ -1,3 +1,5 @@
 aiogram
+apscheduler
 requests
 python-dotenv
+pytz
